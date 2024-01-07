@@ -1,0 +1,149 @@
+* {
+    border: 50px;
+}
+
+body {
+    font-family: Work Sans;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    border: 0;
+
+}
+
+.header {
+    background-image: url('../images/banner/banner1.png');
+    width: 1600px;
+    height: 808px;
+    background-repeat: no-repeat;
+
+}
+
+.banner {
+    text-align: end;
+    padding: 220px 230px 190px 890px;
+}
+
+.banner-title {
+    color: #151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.miss-class {
+    background: url('../images/person.png');
+}
+
+li::marker {
+    color: #16d887;
+    content: "✓";
+}
+
+.image-failure {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-back {
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    width: 527.929px;
+    height: 527.929px;
+    background-position: bottom;
+}
+
+.main {
+    width: 1600px;
+    height: 808px;
+}
+
+.failures {
+    padding: 220px 200px 190px 150px;
+}
+
+.failure-heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+    height: 94px;
+}
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 416px;
+    height: 104px;
+    /* 162.5% */
+}
+
+.failure-list {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+    /* 162.5% */
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.motto {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+}
+
+.motto-content {
+    text-align: left;
+    padding: 60px;
+
+}
+
+.motto-heading {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+}
+.scn-btn{
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    border: 0;    
+}
+.footer{
+    background: #151414
+}
