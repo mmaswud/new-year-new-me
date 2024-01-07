@@ -58,7 +58,7 @@ li::marker {
 
 .image-failure {
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
 }
 
 .img-back {
@@ -107,7 +107,7 @@ li::marker {
 
 .plan-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 #plan {
@@ -116,10 +116,15 @@ li::marker {
     font-size: 40px;
     font-weight: 700;
 }
+.one{
+    padding: 110px;
+}
 
 .motto {
     background-image: url('../images/watch.png');
     background-repeat: no-repeat;
+    background-size: 1140px 300px;
+
 }
 
 .motto-content {
@@ -134,7 +139,8 @@ li::marker {
     font-weight: 700;
     width: 459px;
 }
-.scn-btn{
+
+.scn-btn {
     border-radius: 5px;
     background: #FFF;
     color: #F15B22;
@@ -142,8 +148,47 @@ li::marker {
     font-size: 20px;
     font-weight: 600;
     padding: 20px;
-    border: 0;    
+    border: 0;
 }
-.footer{
-    background: #151414
+
+.footer {
+    background: #151414;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding-left: 50px;
+}
+
+.footer-future {
+    padding: 30px;
+    width: 100%;
+}
+
+.footer-content {
+    padding: 200px;
+    display: flex;
+    width: 50%;
+}
+
+.future-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+#textarea {
+    background: #151414;
+    border: solid white;
+    border-radius: 15px;
+}
+
+.web-d {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
 }
